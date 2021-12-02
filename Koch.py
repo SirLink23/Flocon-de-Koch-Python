@@ -26,7 +26,7 @@ def Flocon(l, i) : # Définition de la fonction Flocon
 long = int(input("Choisissez la longueur du flocon : ")) # Input pour avoir la longueur souhaitée par la personne
 ite = int(input("Choisissez le nombre d'itération du flocon : ")) # Input pour avoir le nombre d'itération du flocon
 x = sqrt((long**2)-((long/2)**2)) # Définition de x avec Pythagore
-if ite == 0 : # Condition pour définir le mouvement le point de commencement du dessin sur l'axe 
+if ite == 0 : # Condition pour définir le mouvement le point de commencement du dessin sur l'axe y
     deplaY = x/2
 else :
     deplaY = x/3
